@@ -1,0 +1,80 @@
+h1, h2{
+	padding: 13px;
+}
+
+h1{
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 50px;	
+}
+
+p a.btn{
+	margin-left: 14px;
+}
+
+body{
+	padding: 20px 20px 60px 20px;
+	font-family: 'Tajawal', sans-serif;	
+	color: #000000;
+	background-image: url("../img/BackGround.jpg");
+}
+
+td a.btn{
+	width: 100px;
+}
+
+form button.btn, form a.btn{
+	margin-bottom: 10px;
+}
+
+td, th{
+	text-align: center;
+}
+
+th{
+	font-size: 19px;
+}
+
+.container{
+	border-radius: 15px;
+	border: 2px solid #f9f2ec;
+	background-color: #f9f2ec;
+}
+
+.table-bordered th, .table-bordered td, .table thead th{
+    border: 1px solid #b3b3b3;
+}
+
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 25px;
+   background-color: #f2f2f2;
+   color: #000000;
+   text-align: center;
+}
+
+.btn-primary{
+	background-color: #6d7fcc;
+	border-color: #6d7fcc;
+
+}
+
+.btn-primary:hover{
+	background-color:#17a2b8;
+	border-color:#17a2b8;
+
+}
+
+.btn-danger{
+	background-color: #e65c00;
+	border-color: #e65c00;
+
+}
+
+.btn-danger:hover{
+	background-color: #ff8533;
+	border-color: #ff8533;
+
+}

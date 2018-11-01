@@ -1,0 +1,10 @@
+CREATE DATABASE KTrello;
+
+CREATE TABLE  `taskMenu` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`task` VARCHAR( 100 ) NOT NULL ,
+`description` VARCHAR( 500 ) NOT NULL ,
+`status` VARCHAR( 20 ) NOT NULL ,
+`lastDate` VARCHAR( 20 ) NOT NULL 
+) 
+
